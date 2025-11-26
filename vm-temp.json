@@ -2,9 +2,9 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "location": { "type": "string", "defaultValue": "eastus" },
-        "virtualNetworkName": { "type": "string", "defaultValue": "vnet-eastus-21" },
-        "subnetName": { "type": "string", "defaultValue": "snet-eastus-1" },
+        "location": { "type": "string", "defaultValue": "westus3" },
+        "virtualNetworkName": { "type": "string", "defaultValue": "rav-westus3-net-2" },
+        "subnetName": { "type": "string", "defaultValue": "rav-westus-snet-2" },
         "addressPrefix": { "type": "string", "defaultValue": "172.25.0.0/24" },
         "addressSpace": { "type": "string", "defaultValue": "172.25.0.0/16" },
         "virtualMachineName": { "type": "string" },
